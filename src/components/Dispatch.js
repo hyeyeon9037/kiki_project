@@ -55,12 +55,11 @@ function Dispatch({ token }) {
         <ul>
           {dispatchList.map((dispatch, i) => (
             <li key={i}>
-                {/* strong 쓰면 br오류 */}
               <p>버스 번호
-                <br/> {dispatch.busNumber}</p>
+                <br/> <strong>{dispatch.busNumber}</strong></p>
                 <br/>
               <p>실제 운행 시작 시각
-                <br/> {dispatch.startTime}</p>
+                <br/> <strong>{dispatch.startTime}</strong></p>
             </li>
           ))}
         </ul>
