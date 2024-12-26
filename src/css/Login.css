@@ -1,0 +1,72 @@
+#Login_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffecf0;
+  }
+  
+  #Login_form {
+    width: 350px;
+    padding: 20px 30px;
+    background: #fffaf3;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  #Login_title {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #ff6f91;
+  }
+  
+  #Login_id,
+  #Login_password {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ffd1dc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #fff;
+  }
+  
+  #Login_id:focus,
+  #Login_password:focus {
+    outline: none;
+    border-color: #ff6f91;
+    box-shadow: 0 0 10px rgba(255, 111, 145, 0.5);
+  }
+  
+  #Login_button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6f91;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+  }
+  
+  #Login_button:hover {
+    background-color: #ff3f6e;
+  }
+  
+  #Login_button:active {
+    background-color: #d12b52;
+  }
+  
+  #Login_button:focus {
+    outline: none;
+  }
+  
+  #Login_form input::placeholder {
+    color: #ffabc1;
+    font-style: italic;
+  }
